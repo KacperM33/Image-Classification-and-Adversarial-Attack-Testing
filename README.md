@@ -1,9 +1,8 @@
 # 🖼️ Image Classification and Adversarial Attack Testing
 
-❕ This project was implemented using the **Google Colaboratory** environment. It is recommended to use this environment for correct installation and correct use of packages.
+> ❕ This project was implemented using the **Google Colaboratory** environment. It is recommended to use this environment for correct installation and correct use of packages.
 
-## 📜 Note
-*README provides an **English** overview of the project content and results. All folders and file names are also in **English** to ensure clarity for international readers. 
+> Note: *README provides an **English** overview of the project content and results. All folders and file names are also in **English** to ensure clarity for international readers. 
 However, the notebook itself contains comments and output descriptions in **Polish.***
 
 ## 🧰 Development Tools
@@ -75,11 +74,13 @@ In the third test, an image of a deer with size of 512x512 pixels was used.
 **Right** – Photo after perturbations incorrectly recognized as a **hedgehog** with 86.12% accuracy.
 
 ## ✍️ Conclusion
-- **In the first test**. a perturbation with *epsilon = 0.02* was used to fool the model. The result **was satisfactory**, both images are very similar and difficult to distinguish by a human, yet the perturbation managed to deceive the model. ✔️
+- **In the first test**. a perturbation with *epsilon = 0.02*, which was sufficient to fool the model. The result **was satisfactory**, both images are very similar and difficult to distinguish by a human, yet the perturbation managed to deceive the model. ✔️
   
-- **In the second test**, a perturbation with *epsilon = 0.8* was applied. The result **was unsatisfactory**, since the images were visibly different and easy for a human to distinguish, making it trivial for the model to be fooled. ❌
+- **In the second test**, a perturbation with *epsilon = 0.8* was the minimal value that successfully fooled the model. The result **was unsatisfactory**, since the images were visibly different and easy for a human to distinguish, making it trivial for the model to be fooled. ❌
   
 - **In the third test**, a perturbation with *epsilon = 0.02* was used again. As in the first test, the result **was satisfactory**, the images are very similar and difficult to distinguish by a human, but the model was still successfully fooled by the perturbation. ✔️
+
+> Note: Increasing the value of **epsilon** amplified the strength of the attack, but it also made the images more distinguishable to a human observer.
 
 ## 📂 Project Structure
 
