@@ -2,8 +2,8 @@
 
 ❕ This project was implemented using the **Google Colaboratory** environment. It is recommended to use this environment for correct installation and correct use of packages.
 
-## 📚 About This Project
-Note: *README provides an **English** overview of the project content and results. All folders and file names are also in **English** to ensure clarity for international readers. 
+## 📜 Note
+*README provides an **English** overview of the project content and results. All folders and file names are also in **English** to ensure clarity for international readers. 
 However, the notebook itself contains comments and output descriptions in **Polish.***
 
 ## 🧰 Development Tools
