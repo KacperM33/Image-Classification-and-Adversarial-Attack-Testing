@@ -1,4 +1,5 @@
 # 🖼️ Image Classification and Adversarial Attack Testing
+The goal of this project was to explore image recognition using **Convolutional Neural Networks (CNNs)** and to understand how **Adversarial Attacks** affect **Neural Network Models**.
 
 > ❕ This project was implemented using the **Google Colaboratory** environment. It is recommended to use this environment for correct installation and correct use of packages.
 
