@@ -75,9 +75,11 @@ In the third test, an image of a deer with size of 512x512 pixels was used.
 **Right** – Photo after perturbations incorrectly recognized as a **hedgehog** with 86.12% accuracy.
 
 ## ✍️ Conclusion
-- **In the first test**. a perturbation with epsilon = 0.02 was used to fool the model. The result was satisfactory, both images are very similar and difficult to distinguish by a human, yet the perturbation managed to deceive the model.
-- **In the second test**, a perturbation with epsilon = 0.8 was applied. The result was less satisfactory, as the images differ significantly and are easy for a human to tell apart. Therefore, it was not surprising that the model was fooled by such a strong perturbation.
-- **In the third test**, a perturbation with epsilon = 0.02 was used again. As in the first test, the result was satisfactory, the images are very similar and difficult to distinguish by a human, but the model was still successfully fooled by the perturbation.
+- **In the first test**. a perturbation with *epsilon = 0.02* was used to fool the model. The result **was satisfactory**, both images are very similar and difficult to distinguish by a human, yet the perturbation managed to deceive the model. ✔️
+  
+- **In the second test**, a perturbation with *epsilon = 0.8* was applied. The result **was unsatisfactory**, since the images were visibly different and easy for a human to distinguish, making it trivial for the model to be fooled. ❌
+  
+- **In the third test**, a perturbation with *epsilon = 0.02* was used again. As in the first test, the result **was satisfactory**, the images are very similar and difficult to distinguish by a human, but the model was still successfully fooled by the perturbation. ✔️
 
 ## 📂 Project Structure
 
