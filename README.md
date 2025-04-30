@@ -95,5 +95,5 @@ In the third test, an image of a deer with size of 512x512 pixels was used.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📄 **deer.jpg** -- *Image of deer<br>*
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── 📄 **...** -- *Other images <br>*
 
-
+<br><br>
 Images to testing was generated with AI ([Grok](https://x.com/i/grok)).
